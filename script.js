@@ -7,7 +7,7 @@ const iconDiv = document.querySelector('.icon');
 
 searchBtn.addEventListener('click', () => {
   const city = searchBar.value;
-  const apiKey = 'YOUR_API_KEY_HERE';
+  const apiKey = 'b445d38a8607d15f8d8afac046330276';
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
   
   fetch(apiUrl)
